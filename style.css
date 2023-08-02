@@ -6,10 +6,15 @@ body{
 
 h1{
     color: white;
-    border: 1px solid white;
-    width:fit-content;
-    justify-content: center;
-    align-items: center;
+    width: auto;
+    text-align: center;
+    
+}
+h3{
+    color: white;
+    width: auto;
+    text-align: center;
+
 }
 
 .container{
@@ -29,10 +34,38 @@ h1{
 
 img{
     border: 1px solid white;
-    width: 177px;
-    height: 140px;
+    width: 170px;
+    height: 143px;
 }
 
 label{
     color: white;
 }
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:261px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
